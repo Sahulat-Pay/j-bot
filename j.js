@@ -2,10 +2,18 @@ const { StringSession } = require("telegram/sessions");
 const axios = require("axios");
 const fs = require("fs").promises;
 const { TelegramClient, Api } = require("telegram");
+require('dotenv').config()
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 4000;
 
-const apiId = 17197921;
-const apiHash = "372655eca8aa7af41e2e92a0d9b7f333";
-const chatId = "-1002309396691";
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+})
+
+const apiId = Number(process.env.apiId);
+const apiHash = process.env.apiHash;
+const chatId = process.env.chatId;
 const Pending = "Transaction is Pending";
 const apiUrl = `https://server.sahulatpay.com/transactions/tele?status=failed&response_message=${Pending}`;
 const sessionFile = "telegram_session.txt";
@@ -190,7 +198,7 @@ const sendMessagesWithDelay = async () => {
 // Adjust fetch interval dynamically
 const adjustFetchInterval = () => {
     if (transactionList.length === 0) {
-        fetchInterval = fetchInterval < 60000 ? 60000 : Math.min(fetchInterval * 2, 600000); // Max 10 min
+        fetchInterval = fetchInterval < 60000 ? 60000 : Math.min(fetchInterval * 2, 600000); // Max 15 min
         console.log(`Next fetch in: ${fetchInterval / 1000} sec`);
         setTimeout(processTransactions, fetchInterval);
     } else {
