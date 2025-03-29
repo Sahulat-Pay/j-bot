@@ -198,7 +198,7 @@ const sendMessagesWithDelay = async () => {
 // Adjust fetch interval dynamically
 const adjustFetchInterval = () => {
     if (transactionList.length === 0) {
-        fetchInterval = fetchInterval < 60000 ? 60000 : Math.min(fetchInterval * 2, 600000); // Max 15 min
+        fetchInterval = fetchInterval < 60000 ? 60000 : Math.min(fetchInterval * 2, 900000); // Max 15 min
         console.log(`Next fetch in: ${fetchInterval / 1000} sec`);
         setTimeout(processTransactions, fetchInterval);
     } else {
