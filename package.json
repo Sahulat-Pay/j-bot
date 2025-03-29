@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^1.8.4",
     "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "telegram": "^2.26.22"
   }
