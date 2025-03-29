@@ -1,0 +1,2095 @@
+{
+  "5048201101": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:14:30.305Z",
+    "fetchedAt": "2025-03-28T18:15:33.634Z",
+    "sentAt": "2025-03-28T18:16:29.337Z"
+  },
+  "5048202701": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:14:25.242Z",
+    "fetchedAt": "2025-03-28T18:15:33.640Z",
+    "sentAt": "2025-03-28T18:16:29.341Z"
+  },
+  "5048197501": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:14:06.240Z",
+    "fetchedAt": "2025-03-28T18:15:33.642Z",
+    "sentAt": "2025-03-28T18:16:29.344Z"
+  },
+  "5048166501": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:11:26.401Z",
+    "fetchedAt": "2025-03-28T18:15:33.644Z",
+    "sentAt": "2025-03-28T18:16:29.346Z"
+  },
+  "5048167701": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:11:21.851Z",
+    "fetchedAt": "2025-03-28T18:15:33.647Z",
+    "sentAt": "2025-03-28T18:16:29.349Z"
+  },
+  "5048124101": {
+    "status": "sent",
+    "error": null,
+    "timestamp": "2025-03-28T18:08:50.775Z",
+    "fetchedAt": "2025-03-28T18:15:33.650Z",
+    "sentAt": "2025-03-28T18:16:29.351Z"
+  },
+  "5048103801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:07:10.766Z",
+    "fetchedAt": "2025-03-28T18:15:33.652Z",
+    "sentAt": null
+  },
+  "5048103401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:07:09.694Z",
+    "fetchedAt": "2025-03-28T18:15:33.654Z",
+    "sentAt": null
+  },
+  "5048099201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:07:02.563Z",
+    "fetchedAt": "2025-03-28T18:15:33.656Z",
+    "sentAt": null
+  },
+  "5048100101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:06:57.275Z",
+    "fetchedAt": "2025-03-28T18:15:33.658Z",
+    "sentAt": null
+  },
+  "5048100501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:06:44.220Z",
+    "fetchedAt": "2025-03-28T18:15:33.660Z",
+    "sentAt": null
+  },
+  "5048082801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:05:51.873Z",
+    "fetchedAt": "2025-03-28T18:15:33.662Z",
+    "sentAt": null
+  },
+  "5048061101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:04:14.641Z",
+    "fetchedAt": "2025-03-28T18:15:33.664Z",
+    "sentAt": null
+  },
+  "5048043301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:02:27.110Z",
+    "fetchedAt": "2025-03-28T18:15:33.666Z",
+    "sentAt": null
+  },
+  "5048035401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:01:46.061Z",
+    "fetchedAt": "2025-03-28T18:15:33.668Z",
+    "sentAt": null
+  },
+  "5048035801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:01:45.217Z",
+    "fetchedAt": "2025-03-28T18:15:33.669Z",
+    "sentAt": null
+  },
+  "5048023901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T18:00:41.660Z",
+    "fetchedAt": "2025-03-28T18:15:33.670Z",
+    "sentAt": null
+  },
+  "5047982601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:59:08.439Z",
+    "fetchedAt": "2025-03-28T18:15:33.672Z",
+    "sentAt": null
+  },
+  "5047980201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:59:03.690Z",
+    "fetchedAt": "2025-03-28T18:15:33.673Z",
+    "sentAt": null
+  },
+  "5047961401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:57:32.190Z",
+    "fetchedAt": "2025-03-28T18:15:33.675Z",
+    "sentAt": null
+  },
+  "5047957301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:57:02.518Z",
+    "fetchedAt": "2025-03-28T18:15:33.686Z",
+    "sentAt": null
+  },
+  "5047937201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:55:50.859Z",
+    "fetchedAt": "2025-03-28T18:15:33.689Z",
+    "sentAt": null
+  },
+  "5047925301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:55:05.696Z",
+    "fetchedAt": "2025-03-28T18:15:33.693Z",
+    "sentAt": null
+  },
+  "5047913901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:54:04.006Z",
+    "fetchedAt": "2025-03-28T18:15:33.695Z",
+    "sentAt": null
+  },
+  "5047890601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:52:46.344Z",
+    "fetchedAt": "2025-03-28T18:15:33.698Z",
+    "sentAt": null
+  },
+  "5047886601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:51:57.214Z",
+    "fetchedAt": "2025-03-28T18:15:33.704Z",
+    "sentAt": null
+  },
+  "5047857801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:50:37.700Z",
+    "fetchedAt": "2025-03-28T18:15:33.705Z",
+    "sentAt": null
+  },
+  "5047852801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:49:43.050Z",
+    "fetchedAt": "2025-03-28T18:15:33.706Z",
+    "sentAt": null
+  },
+  "5047833001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:47:51.809Z",
+    "fetchedAt": "2025-03-28T18:15:33.707Z",
+    "sentAt": null
+  },
+  "5047833701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:47:39.389Z",
+    "fetchedAt": "2025-03-28T18:15:33.709Z",
+    "sentAt": null
+  },
+  "5047828301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:47:19.788Z",
+    "fetchedAt": "2025-03-28T18:15:33.710Z",
+    "sentAt": null
+  },
+  "5047825401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:47:16.153Z",
+    "fetchedAt": "2025-03-28T18:15:33.712Z",
+    "sentAt": null
+  },
+  "5047802701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:46:16.910Z",
+    "fetchedAt": "2025-03-28T18:15:33.713Z",
+    "sentAt": null
+  },
+  "5047798301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:46:08.824Z",
+    "fetchedAt": "2025-03-28T18:15:33.714Z",
+    "sentAt": null
+  },
+  "5047806501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:46:02.276Z",
+    "fetchedAt": "2025-03-28T18:15:33.715Z",
+    "sentAt": null
+  },
+  "5047804401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:45:47.460Z",
+    "fetchedAt": "2025-03-28T18:15:33.716Z",
+    "sentAt": null
+  },
+  "5047803001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:45:32.721Z",
+    "fetchedAt": "2025-03-28T18:15:33.718Z",
+    "sentAt": null
+  },
+  "5047800001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:45:14.040Z",
+    "fetchedAt": "2025-03-28T18:15:33.719Z",
+    "sentAt": null
+  },
+  "5047787001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:44:31.493Z",
+    "fetchedAt": "2025-03-28T18:15:33.721Z",
+    "sentAt": null
+  },
+  "5047781301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:44:04.577Z",
+    "fetchedAt": "2025-03-28T18:15:33.722Z",
+    "sentAt": null
+  },
+  "5047780201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:43:59.017Z",
+    "fetchedAt": "2025-03-28T18:15:33.724Z",
+    "sentAt": null
+  },
+  "5047765201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:42:46.239Z",
+    "fetchedAt": "2025-03-28T18:15:33.725Z",
+    "sentAt": null
+  },
+  "5047761101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:42:14.978Z",
+    "fetchedAt": "2025-03-28T18:15:33.727Z",
+    "sentAt": null
+  },
+  "5047758101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:42:07.728Z",
+    "fetchedAt": "2025-03-28T18:15:33.728Z",
+    "sentAt": null
+  },
+  "5047727201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:39:30.010Z",
+    "fetchedAt": "2025-03-28T18:15:33.730Z",
+    "sentAt": null
+  },
+  "5047725301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:39:04.170Z",
+    "fetchedAt": "2025-03-28T18:15:33.732Z",
+    "sentAt": null
+  },
+  "5047725101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:39:03.993Z",
+    "fetchedAt": "2025-03-28T18:15:33.733Z",
+    "sentAt": null
+  },
+  "5047716901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:38:39.801Z",
+    "fetchedAt": "2025-03-28T18:15:33.734Z",
+    "sentAt": null
+  },
+  "5047689201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:36:35.608Z",
+    "fetchedAt": "2025-03-28T18:15:33.736Z",
+    "sentAt": null
+  },
+  "5047672401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:35:28.743Z",
+    "fetchedAt": "2025-03-28T18:15:33.738Z",
+    "sentAt": null
+  },
+  "5047675701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:35:27.377Z",
+    "fetchedAt": "2025-03-28T18:15:33.739Z",
+    "sentAt": null
+  },
+  "5047668001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:34:22.711Z",
+    "fetchedAt": "2025-03-28T18:15:33.740Z",
+    "sentAt": null
+  },
+  "5047631801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:32:07.884Z",
+    "fetchedAt": "2025-03-28T18:15:33.742Z",
+    "sentAt": null
+  },
+  "5047632301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:31:59.217Z",
+    "fetchedAt": "2025-03-28T18:15:33.745Z",
+    "sentAt": null
+  },
+  "5047619501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:31:27.347Z",
+    "fetchedAt": "2025-03-28T18:15:33.746Z",
+    "sentAt": null
+  },
+  "5047592001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:28:55.474Z",
+    "fetchedAt": "2025-03-28T18:15:33.748Z",
+    "sentAt": null
+  },
+  "5047561201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:27:05.009Z",
+    "fetchedAt": "2025-03-28T18:15:33.749Z",
+    "sentAt": null
+  },
+  "5047552101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:26:12.497Z",
+    "fetchedAt": "2025-03-28T18:15:33.751Z",
+    "sentAt": null
+  },
+  "5047542401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:25:31.346Z",
+    "fetchedAt": "2025-03-28T18:15:33.752Z",
+    "sentAt": null
+  },
+  "5047538001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:25:16.821Z",
+    "fetchedAt": "2025-03-28T18:15:33.753Z",
+    "sentAt": null
+  },
+  "5047517801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:23:35.732Z",
+    "fetchedAt": "2025-03-28T18:15:33.754Z",
+    "sentAt": null
+  },
+  "5047497801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:21:32.522Z",
+    "fetchedAt": "2025-03-28T18:15:33.755Z",
+    "sentAt": null
+  },
+  "5047477801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:19:56.776Z",
+    "fetchedAt": "2025-03-28T18:15:33.756Z",
+    "sentAt": null
+  },
+  "5047443001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:17:40.569Z",
+    "fetchedAt": "2025-03-28T18:15:33.758Z",
+    "sentAt": null
+  },
+  "5047432901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:16:56.945Z",
+    "fetchedAt": "2025-03-28T18:15:33.759Z",
+    "sentAt": null
+  },
+  "5047431901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:16:44.652Z",
+    "fetchedAt": "2025-03-28T18:15:33.761Z",
+    "sentAt": null
+  },
+  "5047421201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:15:44.075Z",
+    "fetchedAt": "2025-03-28T18:15:33.763Z",
+    "sentAt": null
+  },
+  "5047398101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:14:48.480Z",
+    "fetchedAt": "2025-03-28T18:15:33.764Z",
+    "sentAt": null
+  },
+  "5047362701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:11:22.801Z",
+    "fetchedAt": "2025-03-28T18:15:33.766Z",
+    "sentAt": null
+  },
+  "5047343401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:09:56.788Z",
+    "fetchedAt": "2025-03-28T18:15:33.767Z",
+    "sentAt": null
+  },
+  "5047344301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:09:55.833Z",
+    "fetchedAt": "2025-03-28T18:15:33.770Z",
+    "sentAt": null
+  },
+  "5047323301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:08:03.974Z",
+    "fetchedAt": "2025-03-28T18:15:33.771Z",
+    "sentAt": null
+  },
+  "5047309901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:06:58.278Z",
+    "fetchedAt": "2025-03-28T18:15:33.773Z",
+    "sentAt": null
+  },
+  "5047291801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:05:49.339Z",
+    "fetchedAt": "2025-03-28T18:15:33.775Z",
+    "sentAt": null
+  },
+  "5047264301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T17:04:19.308Z",
+    "fetchedAt": "2025-03-28T18:15:33.776Z",
+    "sentAt": null
+  },
+  "5047200501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:59:31.780Z",
+    "fetchedAt": "2025-03-28T18:15:33.778Z",
+    "sentAt": null
+  },
+  "5047204301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:59:24.242Z",
+    "fetchedAt": "2025-03-28T18:15:33.780Z",
+    "sentAt": null
+  },
+  "5047144801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:55:34.533Z",
+    "fetchedAt": "2025-03-28T18:15:33.783Z",
+    "sentAt": null
+  },
+  "5047140601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:55:05.778Z",
+    "fetchedAt": "2025-03-28T18:15:33.785Z",
+    "sentAt": null
+  },
+  "5047118801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:53:37.207Z",
+    "fetchedAt": "2025-03-28T18:15:33.787Z",
+    "sentAt": null
+  },
+  "5047089701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:51:26.058Z",
+    "fetchedAt": "2025-03-28T18:15:33.789Z",
+    "sentAt": null
+  },
+  "5047080201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:50:40.916Z",
+    "fetchedAt": "2025-03-28T18:15:33.791Z",
+    "sentAt": null
+  },
+  "5047062101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:49:19.129Z",
+    "fetchedAt": "2025-03-28T18:15:33.792Z",
+    "sentAt": null
+  },
+  "5047039301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:47:23.746Z",
+    "fetchedAt": "2025-03-28T18:15:33.794Z",
+    "sentAt": null
+  },
+  "5047018601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:46:20.400Z",
+    "fetchedAt": "2025-03-28T18:15:33.796Z",
+    "sentAt": null
+  },
+  "5047012501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:46:11.675Z",
+    "fetchedAt": "2025-03-28T18:15:33.798Z",
+    "sentAt": null
+  },
+  "5047010501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:45:54.281Z",
+    "fetchedAt": "2025-03-28T18:15:33.800Z",
+    "sentAt": null
+  },
+  "5046963501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:42:24.648Z",
+    "fetchedAt": "2025-03-28T18:15:33.802Z",
+    "sentAt": null
+  },
+  "5046948901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:42:07.658Z",
+    "fetchedAt": "2025-03-28T18:15:33.804Z",
+    "sentAt": null
+  },
+  "5046956901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:42:03.753Z",
+    "fetchedAt": "2025-03-28T18:15:33.806Z",
+    "sentAt": null
+  },
+  "5046936101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:41:28.644Z",
+    "fetchedAt": "2025-03-28T18:15:33.809Z",
+    "sentAt": null
+  },
+  "5046928801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:41:09.532Z",
+    "fetchedAt": "2025-03-28T18:15:33.811Z",
+    "sentAt": null
+  },
+  "5046844201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:36:32.596Z",
+    "fetchedAt": "2025-03-28T18:15:33.814Z",
+    "sentAt": null
+  },
+  "5046785501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:33:37.600Z",
+    "fetchedAt": "2025-03-28T18:15:33.817Z",
+    "sentAt": null
+  },
+  "5046768701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:32:54.183Z",
+    "fetchedAt": "2025-03-28T18:15:33.819Z",
+    "sentAt": null
+  },
+  "5046765901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:32:44.354Z",
+    "fetchedAt": "2025-03-28T18:15:33.820Z",
+    "sentAt": null
+  },
+  "5046755201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:32:26.631Z",
+    "fetchedAt": "2025-03-28T18:15:33.823Z",
+    "sentAt": null
+  },
+  "5046756101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:32:11.566Z",
+    "fetchedAt": "2025-03-28T18:15:33.824Z",
+    "sentAt": null
+  },
+  "5046753901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:32:08.044Z",
+    "fetchedAt": "2025-03-28T18:15:33.826Z",
+    "sentAt": null
+  },
+  "5046702101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:29:53.458Z",
+    "fetchedAt": "2025-03-28T18:15:33.827Z",
+    "sentAt": null
+  },
+  "5046715001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:29:48.983Z",
+    "fetchedAt": "2025-03-28T18:15:33.829Z",
+    "sentAt": null
+  },
+  "5046714101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:29:44.584Z",
+    "fetchedAt": "2025-03-28T18:15:33.831Z",
+    "sentAt": null
+  },
+  "5046702301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:29:38.427Z",
+    "fetchedAt": "2025-03-28T18:15:33.833Z",
+    "sentAt": null
+  },
+  "5046644701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:27:22.600Z",
+    "fetchedAt": "2025-03-28T18:15:33.835Z",
+    "sentAt": null
+  },
+  "5046530501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:21:34.548Z",
+    "fetchedAt": "2025-03-28T18:15:33.837Z",
+    "sentAt": null
+  },
+  "5046518701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:20:37.459Z",
+    "fetchedAt": "2025-03-28T18:15:33.839Z",
+    "sentAt": null
+  },
+  "5046484201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:19:49.769Z",
+    "fetchedAt": "2025-03-28T18:15:33.842Z",
+    "sentAt": null
+  },
+  "5046477401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:19:06.435Z",
+    "fetchedAt": "2025-03-28T18:15:33.844Z",
+    "sentAt": null
+  },
+  "5046443601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:17:50.698Z",
+    "fetchedAt": "2025-03-28T18:15:33.845Z",
+    "sentAt": null
+  },
+  "5046436101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:17:33.612Z",
+    "fetchedAt": "2025-03-28T18:15:33.847Z",
+    "sentAt": null
+  },
+  "5046434901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:17:00.703Z",
+    "fetchedAt": "2025-03-28T18:15:33.848Z",
+    "sentAt": null
+  },
+  "5046410401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:16:26.468Z",
+    "fetchedAt": "2025-03-28T18:15:33.850Z",
+    "sentAt": null
+  },
+  "5046399501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:16:19.738Z",
+    "fetchedAt": "2025-03-28T18:15:33.852Z",
+    "sentAt": null
+  },
+  "5046368601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:14:27.573Z",
+    "fetchedAt": "2025-03-28T18:15:33.854Z",
+    "sentAt": null
+  },
+  "5046334901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:13:17.471Z",
+    "fetchedAt": "2025-03-28T18:15:33.856Z",
+    "sentAt": null
+  },
+  "5046339901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:13:11.175Z",
+    "fetchedAt": "2025-03-28T18:15:33.858Z",
+    "sentAt": null
+  },
+  "5046303001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:11:44.016Z",
+    "fetchedAt": "2025-03-28T18:15:33.859Z",
+    "sentAt": null
+  },
+  "5046284301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:10:38.593Z",
+    "fetchedAt": "2025-03-28T18:15:33.861Z",
+    "sentAt": null
+  },
+  "5046230901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:08:32.103Z",
+    "fetchedAt": "2025-03-28T18:15:33.862Z",
+    "sentAt": null
+  },
+  "5046228301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:08:16.838Z",
+    "fetchedAt": "2025-03-28T18:15:33.864Z",
+    "sentAt": null
+  },
+  "5046195501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:06:41.627Z",
+    "fetchedAt": "2025-03-28T18:15:33.865Z",
+    "sentAt": null
+  },
+  "5046167401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:05:31.411Z",
+    "fetchedAt": "2025-03-28T18:15:33.867Z",
+    "sentAt": null
+  },
+  "5046138201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:03:59.110Z",
+    "fetchedAt": "2025-03-28T18:15:33.868Z",
+    "sentAt": null
+  },
+  "5046133401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:03:39.872Z",
+    "fetchedAt": "2025-03-28T18:15:33.870Z",
+    "sentAt": null
+  },
+  "5046132201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:03:33.111Z",
+    "fetchedAt": "2025-03-28T18:15:33.872Z",
+    "sentAt": null
+  },
+  "5046125401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:03:08.366Z",
+    "fetchedAt": "2025-03-28T18:15:33.874Z",
+    "sentAt": null
+  },
+  "5046112501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:02:07.523Z",
+    "fetchedAt": "2025-03-28T18:15:33.876Z",
+    "sentAt": null
+  },
+  "5046110501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:01:59.978Z",
+    "fetchedAt": "2025-03-28T18:15:33.878Z",
+    "sentAt": null
+  },
+  "5046088001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T16:01:49.669Z",
+    "fetchedAt": "2025-03-28T18:15:33.880Z",
+    "sentAt": null
+  },
+  "5045987701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:55:54.803Z",
+    "fetchedAt": "2025-03-28T18:15:33.881Z",
+    "sentAt": null
+  },
+  "5045959801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:54:52.393Z",
+    "fetchedAt": "2025-03-28T18:15:33.883Z",
+    "sentAt": null
+  },
+  "5045945001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:53:54.112Z",
+    "fetchedAt": "2025-03-28T18:15:33.885Z",
+    "sentAt": null
+  },
+  "5045930201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:53:05.695Z",
+    "fetchedAt": "2025-03-28T18:15:33.887Z",
+    "sentAt": null
+  },
+  "5045857201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:49:17.260Z",
+    "fetchedAt": "2025-03-28T18:15:33.890Z",
+    "sentAt": null
+  },
+  "5045851601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:48:57.264Z",
+    "fetchedAt": "2025-03-28T18:15:33.891Z",
+    "sentAt": null
+  },
+  "5045818501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:47:55.862Z",
+    "fetchedAt": "2025-03-28T18:15:33.893Z",
+    "sentAt": null
+  },
+  "5045829701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:47:48.576Z",
+    "fetchedAt": "2025-03-28T18:15:33.895Z",
+    "sentAt": null
+  },
+  "5045795401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:46:54.059Z",
+    "fetchedAt": "2025-03-28T18:15:33.897Z",
+    "sentAt": null
+  },
+  "5045792301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:46:25.690Z",
+    "fetchedAt": "2025-03-28T18:15:33.898Z",
+    "sentAt": null
+  },
+  "5045777901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:45:43.254Z",
+    "fetchedAt": "2025-03-28T18:15:33.900Z",
+    "sentAt": null
+  },
+  "5045772201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:45:25.445Z",
+    "fetchedAt": "2025-03-28T18:15:33.902Z",
+    "sentAt": null
+  },
+  "5045742801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:43:58.089Z",
+    "fetchedAt": "2025-03-28T18:15:33.905Z",
+    "sentAt": null
+  },
+  "5045683501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:40:48.441Z",
+    "fetchedAt": "2025-03-28T18:15:33.907Z",
+    "sentAt": null
+  },
+  "5045646801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:38:40.924Z",
+    "fetchedAt": "2025-03-28T18:15:33.908Z",
+    "sentAt": null
+  },
+  "5045596301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:35:28.270Z",
+    "fetchedAt": "2025-03-28T18:15:33.911Z",
+    "sentAt": null
+  },
+  "5045576501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:34:12.595Z",
+    "fetchedAt": "2025-03-28T18:15:33.914Z",
+    "sentAt": null
+  },
+  "5045569801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:34:02.701Z",
+    "fetchedAt": "2025-03-28T18:15:33.916Z",
+    "sentAt": null
+  },
+  "5045501001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:30:40.620Z",
+    "fetchedAt": "2025-03-28T18:15:33.918Z",
+    "sentAt": null
+  },
+  "5045450001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:27:36.546Z",
+    "fetchedAt": "2025-03-28T18:15:33.920Z",
+    "sentAt": null
+  },
+  "5045422301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:26:13.579Z",
+    "fetchedAt": "2025-03-28T18:15:33.923Z",
+    "sentAt": null
+  },
+  "5045403201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:25:14.839Z",
+    "fetchedAt": "2025-03-28T18:15:33.926Z",
+    "sentAt": null
+  },
+  "5045382201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:24:32.880Z",
+    "fetchedAt": "2025-03-28T18:15:33.928Z",
+    "sentAt": null
+  },
+  "5045360401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:23:21.855Z",
+    "fetchedAt": "2025-03-28T18:15:33.931Z",
+    "sentAt": null
+  },
+  "5045350301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:22:40.678Z",
+    "fetchedAt": "2025-03-28T18:15:33.934Z",
+    "sentAt": null
+  },
+  "5045270601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:18:33.596Z",
+    "fetchedAt": "2025-03-28T18:15:33.937Z",
+    "sentAt": null
+  },
+  "5045267201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:18:04.790Z",
+    "fetchedAt": "2025-03-28T18:15:33.940Z",
+    "sentAt": null
+  },
+  "5045226801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:16:00.582Z",
+    "fetchedAt": "2025-03-28T18:15:33.943Z",
+    "sentAt": null
+  },
+  "5045225201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:15:40.989Z",
+    "fetchedAt": "2025-03-28T18:15:33.946Z",
+    "sentAt": null
+  },
+  "5045180301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:13:32.384Z",
+    "fetchedAt": "2025-03-28T18:15:33.948Z",
+    "sentAt": null
+  },
+  "5045170801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:12:41.931Z",
+    "fetchedAt": "2025-03-28T18:15:33.951Z",
+    "sentAt": null
+  },
+  "5045150501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:12:36.408Z",
+    "fetchedAt": "2025-03-28T18:15:33.953Z",
+    "sentAt": null
+  },
+  "5045159501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:12:33.050Z",
+    "fetchedAt": "2025-03-28T18:15:33.956Z",
+    "sentAt": null
+  },
+  "5045128301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:11:53.205Z",
+    "fetchedAt": "2025-03-28T18:15:33.959Z",
+    "sentAt": null
+  },
+  "5045137801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:11:17.994Z",
+    "fetchedAt": "2025-03-28T18:15:33.961Z",
+    "sentAt": null
+  },
+  "5045136601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:10:59.902Z",
+    "fetchedAt": "2025-03-28T18:15:33.964Z",
+    "sentAt": null
+  },
+  "5045135601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:10:59.754Z",
+    "fetchedAt": "2025-03-28T18:15:33.966Z",
+    "sentAt": null
+  },
+  "5045114701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:10:59.229Z",
+    "fetchedAt": "2025-03-28T18:15:33.969Z",
+    "sentAt": null
+  },
+  "5045119901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:09:56.573Z",
+    "fetchedAt": "2025-03-28T18:15:33.972Z",
+    "sentAt": null
+  },
+  "5045104401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:09:22.929Z",
+    "fetchedAt": "2025-03-28T18:15:33.975Z",
+    "sentAt": null
+  },
+  "5045103101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:09:13.688Z",
+    "fetchedAt": "2025-03-28T18:15:33.978Z",
+    "sentAt": null
+  },
+  "5045053101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:07:00.683Z",
+    "fetchedAt": "2025-03-28T18:15:33.981Z",
+    "sentAt": null
+  },
+  "5045016401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:06:39.502Z",
+    "fetchedAt": "2025-03-28T18:15:33.983Z",
+    "sentAt": null
+  },
+  "5045026301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:06:17.363Z",
+    "fetchedAt": "2025-03-28T18:15:33.986Z",
+    "sentAt": null
+  },
+  "5044998501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T15:04:15.976Z",
+    "fetchedAt": "2025-03-28T18:15:33.988Z",
+    "sentAt": null
+  },
+  "5044842101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:55:28.236Z",
+    "fetchedAt": "2025-03-28T18:15:33.991Z",
+    "sentAt": null
+  },
+  "5044797501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:53:00.216Z",
+    "fetchedAt": "2025-03-28T18:15:33.994Z",
+    "sentAt": null
+  },
+  "5044794901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:52:52.039Z",
+    "fetchedAt": "2025-03-28T18:15:33.997Z",
+    "sentAt": null
+  },
+  "5044787501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:52:29.308Z",
+    "fetchedAt": "2025-03-28T18:15:33.999Z",
+    "sentAt": null
+  },
+  "5044780301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:52:05.551Z",
+    "fetchedAt": "2025-03-28T18:15:34.002Z",
+    "sentAt": null
+  },
+  "5044773801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:51:49.498Z",
+    "fetchedAt": "2025-03-28T18:15:34.005Z",
+    "sentAt": null
+  },
+  "5044764801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:51:10.158Z",
+    "fetchedAt": "2025-03-28T18:15:34.008Z",
+    "sentAt": null
+  },
+  "5044764001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:50:55.040Z",
+    "fetchedAt": "2025-03-28T18:15:34.011Z",
+    "sentAt": null
+  },
+  "5044736701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:49:45.105Z",
+    "fetchedAt": "2025-03-28T18:15:34.013Z",
+    "sentAt": null
+  },
+  "5044732301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:49:32.358Z",
+    "fetchedAt": "2025-03-28T18:15:34.016Z",
+    "sentAt": null
+  },
+  "5044696201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:47:45.398Z",
+    "fetchedAt": "2025-03-28T18:15:34.019Z",
+    "sentAt": null
+  },
+  "5044707401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:47:44.586Z",
+    "fetchedAt": "2025-03-28T18:15:34.024Z",
+    "sentAt": null
+  },
+  "5044661401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:45:33.792Z",
+    "fetchedAt": "2025-03-28T18:15:34.027Z",
+    "sentAt": null
+  },
+  "5044628101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:44:11.935Z",
+    "fetchedAt": "2025-03-28T18:15:34.030Z",
+    "sentAt": null
+  },
+  "5044633101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:44:08.827Z",
+    "fetchedAt": "2025-03-28T18:15:34.032Z",
+    "sentAt": null
+  },
+  "5044620401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:43:43.511Z",
+    "fetchedAt": "2025-03-28T18:15:34.035Z",
+    "sentAt": null
+  },
+  "5044596901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:42:06.500Z",
+    "fetchedAt": "2025-03-28T18:15:34.037Z",
+    "sentAt": null
+  },
+  "5044586401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:41:34.332Z",
+    "fetchedAt": "2025-03-28T18:15:34.040Z",
+    "sentAt": null
+  },
+  "5044586301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:41:34.263Z",
+    "fetchedAt": "2025-03-28T18:15:34.043Z",
+    "sentAt": null
+  },
+  "5044573301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:41:25.014Z",
+    "fetchedAt": "2025-03-28T18:15:34.047Z",
+    "sentAt": null
+  },
+  "5044560401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:40:34.673Z",
+    "fetchedAt": "2025-03-28T18:15:34.049Z",
+    "sentAt": null
+  },
+  "5044523201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:39:00.174Z",
+    "fetchedAt": "2025-03-28T18:15:34.053Z",
+    "sentAt": null
+  },
+  "5044498401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:37:03.035Z",
+    "fetchedAt": "2025-03-28T18:15:34.056Z",
+    "sentAt": null
+  },
+  "5044198401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:35:24.979Z",
+    "fetchedAt": "2025-03-28T18:15:34.059Z",
+    "sentAt": null
+  },
+  "5044450301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:34:43.890Z",
+    "fetchedAt": "2025-03-28T18:15:34.062Z",
+    "sentAt": null
+  },
+  "5044373701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:31:17.018Z",
+    "fetchedAt": "2025-03-28T18:15:34.066Z",
+    "sentAt": null
+  },
+  "5044368701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:30:49.844Z",
+    "fetchedAt": "2025-03-28T18:15:34.069Z",
+    "sentAt": null
+  },
+  "5044367601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:30:37.679Z",
+    "fetchedAt": "2025-03-28T18:15:34.072Z",
+    "sentAt": null
+  },
+  "5044358801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:30:07.866Z",
+    "fetchedAt": "2025-03-28T18:15:34.075Z",
+    "sentAt": null
+  },
+  "5044305401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:27:10.000Z",
+    "fetchedAt": "2025-03-28T18:15:34.078Z",
+    "sentAt": null
+  },
+  "5044295301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:26:42.876Z",
+    "fetchedAt": "2025-03-28T18:15:34.079Z",
+    "sentAt": null
+  },
+  "5044285201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:26:08.186Z",
+    "fetchedAt": "2025-03-28T18:15:34.082Z",
+    "sentAt": null
+  },
+  "5044238401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:23:47.124Z",
+    "fetchedAt": "2025-03-28T18:15:34.084Z",
+    "sentAt": null
+  },
+  "5044232801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:23:34.032Z",
+    "fetchedAt": "2025-03-28T18:15:34.086Z",
+    "sentAt": null
+  },
+  "5044222101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:22:41.061Z",
+    "fetchedAt": "2025-03-28T18:15:34.088Z",
+    "sentAt": null
+  },
+  "5044154901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:17:59.103Z",
+    "fetchedAt": "2025-03-28T18:15:34.090Z",
+    "sentAt": null
+  },
+  "5044118001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:15:21.179Z",
+    "fetchedAt": "2025-03-28T18:15:34.092Z",
+    "sentAt": null
+  },
+  "5044112201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:14:54.181Z",
+    "fetchedAt": "2025-03-28T18:15:34.094Z",
+    "sentAt": null
+  },
+  "5044090701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:13:47.879Z",
+    "fetchedAt": "2025-03-28T18:15:34.097Z",
+    "sentAt": null
+  },
+  "5044010401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:08:06.103Z",
+    "fetchedAt": "2025-03-28T18:15:34.100Z",
+    "sentAt": null
+  },
+  "5044000101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:08:03.642Z",
+    "fetchedAt": "2025-03-28T18:15:34.103Z",
+    "sentAt": null
+  },
+  "5044008701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:07:58.571Z",
+    "fetchedAt": "2025-03-28T18:15:34.105Z",
+    "sentAt": null
+  },
+  "5043973901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:06:18.983Z",
+    "fetchedAt": "2025-03-28T18:15:34.108Z",
+    "sentAt": null
+  },
+  "5043968101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:05:54.868Z",
+    "fetchedAt": "2025-03-28T18:15:34.110Z",
+    "sentAt": null
+  },
+  "5043956901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:05:31.660Z",
+    "fetchedAt": "2025-03-28T18:15:34.112Z",
+    "sentAt": null
+  },
+  "5043932401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:03:13.790Z",
+    "fetchedAt": "2025-03-28T18:15:34.115Z",
+    "sentAt": null
+  },
+  "5043929301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:03:02.711Z",
+    "fetchedAt": "2025-03-28T18:15:34.118Z",
+    "sentAt": null
+  },
+  "5043921801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:02:41.277Z",
+    "fetchedAt": "2025-03-28T18:15:34.121Z",
+    "sentAt": null
+  },
+  "5043905501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:01:19.113Z",
+    "fetchedAt": "2025-03-28T18:15:34.124Z",
+    "sentAt": null
+  },
+  "5043901301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T14:01:04.772Z",
+    "fetchedAt": "2025-03-28T18:15:34.126Z",
+    "sentAt": null
+  },
+  "5043870501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:59:18.597Z",
+    "fetchedAt": "2025-03-28T18:15:34.128Z",
+    "sentAt": null
+  },
+  "5043864901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:59:04.352Z",
+    "fetchedAt": "2025-03-28T18:15:34.130Z",
+    "sentAt": null
+  },
+  "5043860701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:58:50.392Z",
+    "fetchedAt": "2025-03-28T18:15:34.133Z",
+    "sentAt": null
+  },
+  "5043839201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:57:16.691Z",
+    "fetchedAt": "2025-03-28T18:15:34.135Z",
+    "sentAt": null
+  },
+  "5043818001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:56:09.271Z",
+    "fetchedAt": "2025-03-28T18:15:34.138Z",
+    "sentAt": null
+  },
+  "5043796901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:54:41.785Z",
+    "fetchedAt": "2025-03-28T18:15:34.142Z",
+    "sentAt": null
+  },
+  "5043747801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:50:58.519Z",
+    "fetchedAt": "2025-03-28T18:15:34.145Z",
+    "sentAt": null
+  },
+  "5043697601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:47:45.946Z",
+    "fetchedAt": "2025-03-28T18:15:34.148Z",
+    "sentAt": null
+  },
+  "5043644801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:46:54.714Z",
+    "fetchedAt": "2025-03-28T18:15:34.151Z",
+    "sentAt": null
+  },
+  "5043665001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:45:49.528Z",
+    "fetchedAt": "2025-03-28T18:15:34.153Z",
+    "sentAt": null
+  },
+  "5043577201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:39:43.116Z",
+    "fetchedAt": "2025-03-28T18:15:34.156Z",
+    "sentAt": null
+  },
+  "5043529301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:36:16.071Z",
+    "fetchedAt": "2025-03-28T18:15:34.159Z",
+    "sentAt": null
+  },
+  "5043529001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:36:14.866Z",
+    "fetchedAt": "2025-03-28T18:15:34.165Z",
+    "sentAt": null
+  },
+  "5043474701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:32:07.013Z",
+    "fetchedAt": "2025-03-28T18:15:34.168Z",
+    "sentAt": null
+  },
+  "5043452501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:30:27.726Z",
+    "fetchedAt": "2025-03-28T18:15:34.172Z",
+    "sentAt": null
+  },
+  "5043373001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:24:35.645Z",
+    "fetchedAt": "2025-03-28T18:15:34.175Z",
+    "sentAt": null
+  },
+  "5043357201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:23:26.916Z",
+    "fetchedAt": "2025-03-28T18:15:34.178Z",
+    "sentAt": null
+  },
+  "5043341301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:22:56.963Z",
+    "fetchedAt": "2025-03-28T18:15:34.181Z",
+    "sentAt": null
+  },
+  "5043346301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:22:51.988Z",
+    "fetchedAt": "2025-03-28T18:15:34.185Z",
+    "sentAt": null
+  },
+  "5043324201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:20:48.955Z",
+    "fetchedAt": "2025-03-28T18:15:34.188Z",
+    "sentAt": null
+  },
+  "5043315701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:20:13.150Z",
+    "fetchedAt": "2025-03-28T18:15:34.191Z",
+    "sentAt": null
+  },
+  "5043230101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:14:11.840Z",
+    "fetchedAt": "2025-03-28T18:15:34.195Z",
+    "sentAt": null
+  },
+  "5043204401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:12:13.518Z",
+    "fetchedAt": "2025-03-28T18:15:34.199Z",
+    "sentAt": null
+  },
+  "5043177301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:10:29.649Z",
+    "fetchedAt": "2025-03-28T18:15:34.202Z",
+    "sentAt": null
+  },
+  "5043171201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:09:39.184Z",
+    "fetchedAt": "2025-03-28T18:15:34.205Z",
+    "sentAt": null
+  },
+  "5043164101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:09:21.384Z",
+    "fetchedAt": "2025-03-28T18:15:34.208Z",
+    "sentAt": null
+  },
+  "5043137101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:07:30.911Z",
+    "fetchedAt": "2025-03-28T18:15:34.212Z",
+    "sentAt": null
+  },
+  "5043119001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:05:59.831Z",
+    "fetchedAt": "2025-03-28T18:15:34.215Z",
+    "sentAt": null
+  },
+  "5043080901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:03:32.684Z",
+    "fetchedAt": "2025-03-28T18:15:34.218Z",
+    "sentAt": null
+  },
+  "5043081201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:03:25.875Z",
+    "fetchedAt": "2025-03-28T18:15:34.221Z",
+    "sentAt": null
+  },
+  "5043076601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:02:53.444Z",
+    "fetchedAt": "2025-03-28T18:15:34.223Z",
+    "sentAt": null
+  },
+  "5043066601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:02:09.753Z",
+    "fetchedAt": "2025-03-28T18:15:34.227Z",
+    "sentAt": null
+  },
+  "5043044401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T13:00:42.738Z",
+    "fetchedAt": "2025-03-28T18:15:34.229Z",
+    "sentAt": null
+  },
+  "5043030001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:59:30.531Z",
+    "fetchedAt": "2025-03-28T18:15:34.233Z",
+    "sentAt": null
+  },
+  "5042991501": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:56:04.155Z",
+    "fetchedAt": "2025-03-28T18:15:34.236Z",
+    "sentAt": null
+  },
+  "5042961801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:53:26.049Z",
+    "fetchedAt": "2025-03-28T18:15:34.238Z",
+    "sentAt": null
+  },
+  "5042944301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:52:19.091Z",
+    "fetchedAt": "2025-03-28T18:15:34.240Z",
+    "sentAt": null
+  },
+  "5042926301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:50:44.428Z",
+    "fetchedAt": "2025-03-28T18:15:34.242Z",
+    "sentAt": null
+  },
+  "5042903101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:48:25.449Z",
+    "fetchedAt": "2025-03-28T18:15:34.244Z",
+    "sentAt": null
+  },
+  "5042864201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:45:36.662Z",
+    "fetchedAt": "2025-03-28T18:15:34.246Z",
+    "sentAt": null
+  },
+  "5042842701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:43:54.582Z",
+    "fetchedAt": "2025-03-28T18:15:34.247Z",
+    "sentAt": null
+  },
+  "5042832201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:43:35.975Z",
+    "fetchedAt": "2025-03-28T18:15:34.249Z",
+    "sentAt": null
+  },
+  "5042829101": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:43:10.222Z",
+    "fetchedAt": "2025-03-28T18:15:34.251Z",
+    "sentAt": null
+  },
+  "5042822901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:42:27.538Z",
+    "fetchedAt": "2025-03-28T18:15:34.253Z",
+    "sentAt": null
+  },
+  "5042815701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:41:41.970Z",
+    "fetchedAt": "2025-03-28T18:15:34.255Z",
+    "sentAt": null
+  },
+  "5042797401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:41:00.712Z",
+    "fetchedAt": "2025-03-28T18:15:34.256Z",
+    "sentAt": null
+  },
+  "5042805301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:40:44.558Z",
+    "fetchedAt": "2025-03-28T18:15:34.258Z",
+    "sentAt": null
+  },
+  "5042779901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:39:14.516Z",
+    "fetchedAt": "2025-03-28T18:15:34.260Z",
+    "sentAt": null
+  },
+  "5042761201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:37:05.471Z",
+    "fetchedAt": "2025-03-28T18:15:34.262Z",
+    "sentAt": null
+  },
+  "5042762801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:36:59.924Z",
+    "fetchedAt": "2025-03-28T18:15:34.265Z",
+    "sentAt": null
+  },
+  "5042734401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:34:53.121Z",
+    "fetchedAt": "2025-03-28T18:15:34.267Z",
+    "sentAt": null
+  },
+  "5042701301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:32:42.489Z",
+    "fetchedAt": "2025-03-28T18:15:34.268Z",
+    "sentAt": null
+  },
+  "5042704201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:32:36.793Z",
+    "fetchedAt": "2025-03-28T18:15:34.270Z",
+    "sentAt": null
+  },
+  "5042684801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:30:17.445Z",
+    "fetchedAt": "2025-03-28T18:15:34.273Z",
+    "sentAt": null
+  },
+  "5042658201": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:29:13.166Z",
+    "fetchedAt": "2025-03-28T18:15:34.276Z",
+    "sentAt": null
+  },
+  "5042656401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:27:51.784Z",
+    "fetchedAt": "2025-03-28T18:15:34.278Z",
+    "sentAt": null
+  },
+  "5042659301": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:27:41.152Z",
+    "fetchedAt": "2025-03-28T18:15:34.280Z",
+    "sentAt": null
+  },
+  "5042655401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:27:24.444Z",
+    "fetchedAt": "2025-03-28T18:15:34.283Z",
+    "sentAt": null
+  },
+  "5042631801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:25:53.380Z",
+    "fetchedAt": "2025-03-28T18:15:34.285Z",
+    "sentAt": null
+  },
+  "5042599901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:23:51.413Z",
+    "fetchedAt": "2025-03-28T18:15:34.287Z",
+    "sentAt": null
+  },
+  "5042535001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:16:54.034Z",
+    "fetchedAt": "2025-03-28T18:15:34.290Z",
+    "sentAt": null
+  },
+  "5042529701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:16:19.325Z",
+    "fetchedAt": "2025-03-28T18:15:34.293Z",
+    "sentAt": null
+  },
+  "5042505701": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:14:37.525Z",
+    "fetchedAt": "2025-03-28T18:15:34.296Z",
+    "sentAt": null
+  },
+  "5042449801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T12:09:00.876Z",
+    "fetchedAt": "2025-03-28T18:15:34.299Z",
+    "sentAt": null
+  },
+  "5042291901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:58:47.805Z",
+    "fetchedAt": "2025-03-28T18:15:34.301Z",
+    "sentAt": null
+  },
+  "5042205801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:48:53.298Z",
+    "fetchedAt": "2025-03-28T18:15:34.304Z",
+    "sentAt": null
+  },
+  "5042194001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:47:23.153Z",
+    "fetchedAt": "2025-03-28T18:15:34.306Z",
+    "sentAt": null
+  },
+  "5042169901": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:46:03.063Z",
+    "fetchedAt": "2025-03-28T18:15:34.308Z",
+    "sentAt": null
+  },
+  "5042131001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:42:45.603Z",
+    "fetchedAt": "2025-03-28T18:15:34.311Z",
+    "sentAt": null
+  },
+  "5042100401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:40:01.951Z",
+    "fetchedAt": "2025-03-28T18:15:34.314Z",
+    "sentAt": null
+  },
+  "5042084401": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:38:25.026Z",
+    "fetchedAt": "2025-03-28T18:15:34.317Z",
+    "sentAt": null
+  },
+  "5042019001": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T11:34:24.256Z",
+    "fetchedAt": "2025-03-28T18:15:34.321Z",
+    "sentAt": null
+  },
+  "5039221801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-28T07:32:42.794Z",
+    "fetchedAt": "2025-03-28T18:15:34.324Z",
+    "sentAt": null
+  },
+  "5034260801": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-27T21:02:59.549Z",
+    "fetchedAt": "2025-03-28T18:15:34.327Z",
+    "sentAt": null
+  },
+  "5034252601": {
+    "status": "fetched",
+    "error": null,
+    "timestamp": "2025-03-27T21:01:55.587Z",
+    "fetchedAt": "2025-03-28T18:15:34.330Z",
+    "sentAt": null
+  }
+}
