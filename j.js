@@ -1,8 +1,4 @@
-const { StringSession } = require("telegram/sessions");
 const axios = require("axios");
-const fs = require("fs").promises;
-const { TelegramClient, Api } = require("telegram");
-require('dotenv').config()
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 4000;
@@ -11,240 +7,173 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
-const apiId = Number(process.env.apiId);
-const apiHash = process.env.apiHash;
-const chatId = process.env.chatId;
-const Pending = "Transaction is Pending";
-const apiUrl = `https://server.sahulatpay.com/transactions/tele?status=failed&response_message=${Pending}`;
-const sessionFile = "telegram_session.txt";
+app.get("/", (req,res,next) => {
+  return res.status(200).json({status: "success"})
+})
 
-let transactionList = [];
-let client;
-let fetchInterval = 10000; // 10 sec initial fetch interval
-let fetchedCount = 0;
-let processedCount = 0;
+// API URLs for transactions
+const CALLBACK_API_URL = "https://server.sahulatpay.com/backoffice/payin-callback";
+const SETTLE_API_URL = "https://server.sahulatpay.com/backoffice/settle-transactions/tele";
+const FAIL_API_URL = "https://server.sahulatpay.com/backoffice/fail-transactions/tele";
+const FETCH_API_URL = "https://server.sahulatpay.com/transactions/tele/last-15-mins?status=failed&response_message=Transaction%20is%20Pending";
 
-// Get log file name based on current date
-const getLogFileName = (date = new Date()) => {
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, "0");
-    return `transactions_log_${year}-${month}.json`;
-};
+// List for transactions
+let transaction = [];
 
-// Load transactions from JSON file
-const loadTransactions = async (date) => {
-    const fileName = getLogFileName(date);
+// Set to track processed orders and prevent duplicates
+const processedOrders = new Set();
+
+// Retry function for API calls
+const retry = async (fn, retries = 1, delay = 20) => {
+  let lastError;
+  for (let i = 0; i < retries; i++) {
     try {
-        const data = await fs.readFile(fileName, "utf8");
-        return JSON.parse(data);
-    } catch (err) {
-        if (err.code === "ENOENT") return {};
-        console.error(`Error loading transactions from ${fileName}:`, err.message);
-        return {};
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      if (i === retries - 1) throw lastError;
+      console.log(`Retry ${i + 1}/${retries} after error: ${error.message}`);
+      await new Promise((resolve) => setTimeout(resolve, delay));
     }
+  }
 };
 
-// Save transactions to JSON file
-const saveTransactions = async (transactions, date = new Date()) => {
-    const fileName = getLogFileName(date);
-    try {
-        await fs.writeFile(fileName, JSON.stringify(transactions, null, 2), "utf8");
-    } catch (err) {
-        console.error(`Error saving transactions to ${fileName}:`, err.message);
-    }
-};
+// Delay function to avoid rate limiting
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-// Load session from file
-const loadSession = async () => {
-    try {
-        const sessionData = await fs.readFile(sessionFile, "utf8");
-        return new StringSession(sessionData.trim());
-    } catch (err) {
-        console.log("No session file found, creating a new one.");
-        return new StringSession("");
-    }
-};
-
-// Save session to file
-const saveSession = async (session) => {
-    await fs.writeFile(sessionFile, session, "utf8");
-    console.log("Session saved to", sessionFile);
-};
-
-// Get default time range (midnight today to now)
-const getTimeRange = () => {
-    const now = new Date();
-    const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0, 0, 0);
-    return { startTime: startOfDay, endTime: now };
-};
-
-// Log transaction to JSON file
-const logTransaction = async (id, status, apiTimestamp, error = null) => {
-    const date = new Date();
-    const transactions = await loadTransactions(date);
-    const now = new Date().toISOString();
-
-    if (!transactions[id]) {
-        transactions[id] = {
-            status,
-            error,
-            timestamp: apiTimestamp,
-            fetchedAt: now,
-            sentAt: null,
-        };
-    } else {
-        transactions[id].status = status;
-        transactions[id].error = error;
-        if (status === "sent") transactions[id].sentAt = now;
-        else if (status === "failed") transactions[id].sentAt = null;
-    }
-    await saveTransactions(transactions, date);
-};
-
-// Ensure Telegram client is connected
-const ensureConnected = async () => {
-    try {
-        if (!client || !(await client.isUserAuthorized())) {
-            console.log("Client disconnected. Reconnecting...");
-            await client.connect();
-            if (!(await client.isUserAuthorized())) {
-                throw new Error("Authorization lost");
-            }
-            console.log("Reconnected successfully.");
-        }
-    } catch (err) {
-        console.error("Connection lost:", err.message);
-        await new Promise((resolve) => setTimeout(resolve, 5000));
-        return ensureConnected();
-    }
+// Function to log messages
+const logMessage = (message) => {
+  console.log(`[LOG]: ${message}`);
 };
 
 // Fetch transactions
 const fetchTransactions = async () => {
-    try {
-        const response = await axios.get(apiUrl, { timeout: 10000 });
-        if (!response.data || typeof response.data !== "object") return [];
+  try {
+    const response = await retry(() => axios.get(FETCH_API_URL, { timeout: 10000 }));
+    if (!response.data || typeof response.data !== "object") return;
 
-        let transactions = response.data.transactions || response.data;
-        if (!Array.isArray(transactions)) return [];
+    let transactions = response.data.transactions || response.data;
+    if (!Array.isArray(transactions)) return;
 
-        const { startTime, endTime } = getTimeRange();
-        const currentMonth = new Date(startTime.getFullYear(), startTime.getMonth(), 1);
-        const loggedTransactions = await loadTransactions(currentMonth);
-        const sentIds = new Set(Object.entries(loggedTransactions)
-            .filter(([, data]) => data.status === "sent")
-            .map(([id]) => id));
+    let newTransactions = transactions
+      .filter((tx) => !transaction.includes(tx.merchant_transaction_id) && !processedOrders.has(tx.merchant_transaction_id))
+      .map((tx) => tx.merchant_transaction_id);
 
-        let newTransactions = transactions
-            .filter((tx) => {
-                if (!tx.date_time || typeof tx.date_time !== "string") return false;
-                let txDate;
-                try {
-                    txDate = new Date(tx.date_time);
-                    if (isNaN(txDate.getTime())) {
-                        txDate = new Date(tx.date_time.replace(" ", "T") + ".000Z");
-                        if (isNaN(txDate.getTime())) return false;
-                    }
-                } catch (error) {
-                    return false;
-                }
-                return txDate >= startTime && txDate <= endTime && !sentIds.has(tx.merchant_transaction_id);
-            })
-            .map((tx) => ({ id: tx.merchant_transaction_id, timestamp: tx.date_time }));
+    transaction = [...transaction, ...newTransactions];
+    console.log(`Fetched: ${newTransactions.length}, Total in transaction list: ${transaction.length}`);
+  } catch (error) {
+    console.error("Error fetching transactions:", error.message);
+  }
+};
 
-        fetchedCount += newTransactions.length;
-        for (const tx of newTransactions) {
-            await logTransaction(tx.id, "fetched", tx.timestamp);
+// Function to handle the transaction
+const handleTransaction = async (order) => {
+  try {
+    if (processedOrders.has(order)) {
+      return;
+    }
+    processedOrders.add(order);
+    setTimeout(() => processedOrders.delete(order), 30000); // Clear after 30s
+
+    const apiUrl = `https://server.sahulatpay.com/transactions/tele?merchantTransactionId=${order}`;
+    const response = await retry(() => axios.get(apiUrl));
+    //console.log(`[${commandId}] API Response:`, response.data);
+
+    let transaction = response.data.transactions?.[0];
+    if (!transaction) {
+      logMessage(`Transaction "${order}" not found in back-office.`);
+      return;
+    }
+
+    //console.log(`[${commandId}] Transaction Details:`, JSON.stringify(transaction, null, 2));
+
+    let status = transaction.status.trim().toLowerCase();
+    let merchantTransactionId = transaction.merchant_transaction_id || transaction.merchant_custom_order_id;
+    let txn_id = transaction.transaction_id;
+    let uid = transaction.merchant?.uid || transaction.merchant?.groups?.[0]?.uid || transaction.merchant?.groups?.[0]?.merchant?.uid;
+
+    if (status === "completed") {
+      try {
+        await retry(() => axios.post(CALLBACK_API_URL, { transactionIds: [merchantTransactionId] }));
+        //console.log(`[${commandId}] Transaction ${merchantTransactionId} marked as completed. TxnID: ${txn_id}`);
+        logMessage(`Transaction Status ${merchantTransactionId} : Completed.\n\nTxnID: ${txn_id}`);
+      } catch (error) {
+        logMessage(`Error updating transaction status for ${merchantTransactionId}.`);
+      }
+      return;
+    }
+
+    // Status inquiry for transactions
+    if (uid) {
+      let providerName = transaction.providerDetails?.name?.toLowerCase();
+      let inquiryUrl, inquiryResponse;
+
+      if (providerName === "easypaisa") {
+        inquiryUrl = `https://server.sahulatpay.com/payment/inquiry-ep/${uid}?orderId=${order}`;
+        inquiryResponse = await retry(() => axios.get(inquiryUrl, { params: { transaction_id: merchantTransactionId } }));
+      } else if (providerName === "jazzcash") {
+        inquiryUrl = `https://server.sahulatpay.com/payment/status-inquiry/${uid}`;
+        inquiryResponse = await retry(() => axios.post(inquiryUrl, { transactionId: merchantTransactionId }));
+      }
+
+      if (inquiryResponse) {
+        //console.log(`[${commandId}] Inquiry API Response:`, inquiryResponse.data);
+        let inquiryStatus = inquiryResponse?.data?.data?.transactionStatus?.toLowerCase();
+        let inquiryStatusCode = inquiryResponse?.data?.data?.statusCode;
+
+        if (!inquiryStatus || inquiryStatus === "failed" || inquiryStatusCode === 500) {
+          await retry(() => axios.post(FAIL_API_URL, { transactionIds: [merchantTransactionId] }));
+          //console.log(`[${commandId}] Transaction ${merchantTransactionId} marked as failed.`);
+          logMessage(`${merchantTransactionId} Status: Failed.`);
+          return;
+        } else if (inquiryStatus === "completed") {
+          await retry(() => axios.post(SETTLE_API_URL, { transactionId: merchantTransactionId }));
+          //console.log(`[${commandId}] Transaction ${merchantTransactionId} marked as completed.`);
+          logMessage(`Transaction Status ${merchantTransactionId} : Completed.`);
+          return;
         }
-        transactionList = [...transactionList, ...newTransactions.map(tx => tx.id)];
-        console.log(`Fetched: ${fetchedCount}, Pending: ${transactionList.length}`);
-    } catch (error) {
-        console.error("Error fetching transactions:", error.message);
+      }
     }
+
+    // Default case: transaction failed
+    logMessage(`${merchantTransactionId} Status: Failed.`);
+  } catch (error) {
+    logMessage(`Error: ${error.message}`);
+  }
 };
 
-// Send messages in batches
-const sendMessagesWithDelay = async () => {
-    while (transactionList.length > 0) {
-        await ensureConnected();
-        const batch = transactionList.splice(0, 6);
-        const message = `/in ${batch.join(" ")}`;
-
-        try {
-            console.log(`Sending: ${message}`);
-            await client.sendMessage(chatId, { message });
-            const transactions = await loadTransactions(new Date());
-            for (const id of batch) {
-                const apiTimestamp = transactions[id]?.timestamp || new Date().toISOString();
-                await logTransaction(id, "sent", apiTimestamp);
-            }
-            processedCount += batch.length;
-            console.log(`Processed: ${processedCount}, Remaining: ${transactionList.length}`);
-            await new Promise((resolve) => setTimeout(resolve, 30000));
-        } catch (err) {
-            console.error(`Failed to send: ${message}`, err.message);
-            const transactions = await loadTransactions(new Date());
-            for (const id of batch) {
-                const apiTimestamp = transactions[id]?.timestamp || new Date().toISOString();
-                await logTransaction(id, "failed", apiTimestamp, err.message);
-            }
-            transactionList.unshift(...batch);
-            await new Promise((resolve) => setTimeout(resolve, 60000));
-        }
-    }
-    adjustFetchInterval();
+// Function to process transaction list
+const processTransactionList = async () => {
+  console.log("Processing transaction list:", transaction);
+  while (transaction.length > 0) {
+    const order = transaction[0]; // Peek at the first order
+    transaction.shift(); // Remove it immediately to prevent reprocessing
+    await handleTransaction(order);
+    await delay(10); // Delay between transactions
+  }
 };
 
-// Adjust fetch interval dynamically
-const adjustFetchInterval = () => {
-    if (transactionList.length === 0) {
-        fetchInterval = fetchInterval < 60000 ? 60000 : Math.min(fetchInterval * 2, 900000); // Max 15 min
-        console.log(`Next fetch in: ${fetchInterval / 1000} sec`);
-        setTimeout(processTransactions, fetchInterval);
-    } else {
-        fetchInterval = 10000; // Reset to 10 sec
-    }
-};
-
-// Process transactions
-const processTransactions = async () => {
-    if (transactionList.length === 0) {
-        await fetchTransactions();
-    }
-    await sendMessagesWithDelay();
-};
-
-// Start Telegram bot
-(async () => {
-    const stringSession = await loadSession();
-    client = new TelegramClient(stringSession, apiId, apiHash, {
-        connectionRetries: 10,
-        retryDelay: 5000,
-        floodSleepThreshold: 60,
-        port: 443
-    });
-
-    client.on("error", async (err) => {
-        console.error("Telegram client error:", err);
-        ensureConnected();
-    });
-
-    await client.connect();
-
-    if (!(await client.isUserAuthorized())) {
-        console.error("No valid session. Please authenticate manually first.");
-        process.exit(1);
-    }
-
-    console.log("Logged in as:", await client.getMe());
+// Main loop to fetch and process every 3 minutes
+const main = async () => {
+  while (true) {
+    console.log("Starting fetch cycle...");
     await fetchTransactions();
-    processTransactions();
+    await processTransactionList();
+    console.log("Waiting 2 minutes for next fetch...");
+    await delay(120000); // Wait 2 minutes (120000 ms)
+  }
+};
 
-    process.on("uncaughtException", (err) => console.error("Unhandled Error:", err));
-    process.on("unhandledRejection", (reason) => console.error("Unhandled Rejection:", reason));
-    process.on("SIGINT", async () => {
-        console.log("Shutting down...");
-        if (client) await client.disconnect();
-        process.exit(0);
-    });
-})();
+// Run the script
+main().catch((error) => {
+  console.error("Error in main loop:", error);
+});
+
+// Handle uncaught exceptions and rejections to prevent crashes
+process.on("unhandledRejection", (reason, promise) => {
+  console.error("Unhandled Rejection at:", promise, "reason:", reason);
+});
+
+process.on("uncaughtException", (error) => {
+  console.error("Uncaught Exception:", error);
+});
