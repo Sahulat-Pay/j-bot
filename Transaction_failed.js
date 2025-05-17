@@ -1,5 +1,5 @@
 const axios = require("axios");
-const express = require('express')
+const express = require("express")
 const app = express()
 const port = process.env.PORT || 4000;
 
@@ -10,12 +10,11 @@ app.listen(port, () => {
 app.get("/", (req,res,next) => {
   return res.status(200).json({status: "success"})
 })
-
 // API URLs for transactions
 const CALLBACK_API_URL = "https://server.sahulatpay.com/backoffice/payin-callback";
 const SETTLE_API_URL = "https://server.sahulatpay.com/backoffice/settle-transactions/tele";
 const FAIL_API_URL = "https://server.sahulatpay.com/backoffice/fail-transactions/tele";
-const FETCH_API_URL = "https://server.sahulatpay.com/transactions/tele/last-15-mins?status=failed&response_message=Transaction%20is%20Pending";
+const FETCH_API_URL = "https://api.sahulatpay.com/transactions/tele/last-2-mins?status=failed";
 
 // List for transactions
 let transaction = [];
@@ -160,7 +159,7 @@ const main = async () => {
     await fetchTransactions();
     await processTransactionList();
     console.log("Waiting 2 minutes for next fetch...");
-    await delay(120000); // Wait 2 minutes (120000 ms)
+    await delay(60000); // Wait 1 minutes (120000 ms)
   }
 };
 
